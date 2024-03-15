@@ -3,13 +3,99 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Olá Mundo</title>
+  <title>Aula 15/03</title>
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="code.js"></script>
 </head>
 <body>
-  <div class="center">
-    <span class="msg" id="texto">Olá Mundo</span>
-  </div>
+  <h1>
+    Aula 15/03: &lt;Tags&gt;
+  </h1>
+  <h2>
+    Tag &lt;p&gt;
+  </h2>
+  <h3>
+    Escodra
+  </h1>
+  <p>
+    Escodra é uma cidade que foi fundada por volta do século IV a.C. pelos 
+    <span class="destaque">ilírios</span> e tomada pelos <span class="destaque">romanos</span> 
+    em 168 a.C.. Em 1040, foi tomada pelos sérvios, em 1396 
+    pelos venezianos e em 1479 pelos otomanos.
+  </p>
+  <p> 
+    No século &lt;<span id="negrito">XIX</span>&gt; a cidade tornou-se um importante centro 
+    <span class="destaque">comercial &amp;&nbsp;cultural</span>, e a segunda cidade da Albânia em tamanho. 
+    A cidade também teve importante participação no movimento pela independência albanesa. Durante a 
+    <span class="destaque">Primeira Guerra Mundial</span> foi inicialmente capturada por forças de Montenegro, 
+    e, depois, do <span class="destaque">Império Austro-Húngaro</span>. Com o fim da guerra, foi posta, 
+    em 1920, sob administração do governo albanês sediado em Tirana.
+  </p>
+  <h2>
+    Tag &lt;button&gt;
+  </h2>
+  <button>Gostei</button>
+  <button>Não Gostei</button>
+  <h2>
+    Tag &lt;input&gt;
+  </h2>
+  <h3>
+    -type = 'txt'
+  </h3>
+  <p>
+    Digite seu nome: <input type="txt" maxlenght="20">
+  </p>
+  <h3>
+    -type = 'checkbox'
+  </h3>
+  <p>
+    Eu gosto de...
+  </p>
+  <input type="checkbox"> Banana<br>
+  <input type="checkbox"> Maçã<br>
+  <input type="checkbox"> Mamão
+  <h3>
+    -type = 'radio'
+  </h3>
+  <p>
+    O que você prefere?
+  </p>
+  <input type="radio" name="filme"> Romance<br>
+  <input type="radio" name="filme"> Ação<br>
+  <input type="radio" name="filme"> Drama<br>
+  <input type="radio" name="filme"> Comédia
+  <h3>
+    -type = 'password'
+  </h3>
+  <p>
+    Digite sua senha:
+  </p>
+  <input type="password">
+  <p>
+    Quantos funcionários tem na sua empresa?
+  </p>
+  <h2>
+    Tag &lt;select&gt;
+  </h2>
+  <select>
+    <option value="1">Somente 1</option>
+    <option value="2">2</option>
+    <option value="3">De 3 a 5</option>
+    <option value="4">De 6 a 10</option>
+    <option value="5">De 10 a 50</option>
+    <option value="6">Mais que 50</option>
+  </select>
+  <h2>
+    Tag &lt;textarea&gt;
+  </h2>
+  <textarea rows="10" cols="50"></textarea>
+  <h2>
+    Tag &lt;link&gt;
+  </h2>
+  <a target=_blank href="https://www.google.com"><span id="link">Google</span></a>
+  <h2>
+    Tag &lt;img&gt;
+  </h2>
+  <img src="logo.png" width="250" height="250" alt="HTML5">
 </body>
 </html>
